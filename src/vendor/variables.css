@@ -3,7 +3,10 @@
     --color-white: #ffffff;
     --color-bg: #ECEBE8;
     --color-accent: #B7C09D;
+
     --font-healines-family: Neue Machina;
+    --font-body-family: FormularLight;
+
     --font-headline-1-size: 72px;
     --font-headline-2-size: 64px;
     --font-headline-3-size: 56px;
@@ -11,10 +14,7 @@
     --font-headline-5-size: 36px;
     --font-headline-6-size: 28px;
     --font-headline-7-size: 20px;
-    --font-body-regular-size: 20px;
-    --font-body-medium-size: 18px;
-    --font-body-small-size: 16px;
-    --font-caption-size: 14px;
+
     --font-headline-1-height: 70px;
     --font-headline-2-height: 60px;
     --font-headline-3-height: 56px;
@@ -22,9 +22,17 @@
     --font-headline-5-height: 38px;
     --font-headline-6-height: 32px;
     --font-headline-7-height: 24px;
+
+    --font-headlines-letter-spacing: -0,01em;
+
+    --font-body-regular-size: 20px;
+    --font-body-medium-size: 18px;
+    --font-body-small-size: 16px;
+
     --font-body-regular-height: 28px;
     --font-body-medium-height: 23px;
     --font-body-small-height: 22px;
+
+    --font-caption-size: 14px;
     --font-caption-height: 17px;
-    --font-headlines-letter-spacing: -0,01em;
 }
