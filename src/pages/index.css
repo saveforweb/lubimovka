@@ -1,4 +1,8 @@
 @import '../vendor/normalize.css';
 @import '../vendor/variables.css';
 @import '../vendor/fonts/Formular Light/formular-light.css';
+@import '../vendor/fonts/Neue Machina Regular/neueMachina.css';
+@import '../components/MainTitle/main-title.css';
+@import '../components/RegularTitle/regular-title.css';
+@import '../components/RegularText/regular-text.css';
 @import url(../components/SmallLogo/SmallLogo.css);
