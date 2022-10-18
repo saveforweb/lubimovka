@@ -3,3 +3,6 @@
 @import '../vendor/fonts/Formular Light/formular-light.css';
 @import '../vendor/fonts/Neue Machina Regular/neueMachina.css';
 
+/* SmallButton */
+
+@import url(../components/SmallButton/small-button.css);

@@ -1,0 +1,58 @@
+.small-button {
+  border: none;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 120px;
+  height: 31px;
+  font-family: "FormularLight";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: left;
+  color: var(--color-carbon);
+  position: relative;
+  padding-left: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.5s;
+}
+
+.small-button::before {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 0px;
+  z-index: -1;
+  content: "";
+  color: var(--color-white);
+  background: var(--color-carbon);
+  transition: all 0.5s;
+}
+
+.small-button:hover {
+  background-color: transparent;
+  color: var(--color-white);
+}
+
+.small-button:hover:before {
+  left: 0%;
+  right: auto;
+  width: 100%;
+}
+
+.small-button:hover .small-button__arrow {
+  fill: var(--color-white);
+}
+
+.small-button__arrow {
+  position: absolute;
+  right: 0;
+  transition: all 0.5s;
+}
+
+.small-button:active {
+  transform: scale(1.4);
+}
