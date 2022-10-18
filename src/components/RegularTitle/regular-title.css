@@ -1,0 +1,11 @@
+.regular-title {
+    max-width: 568px;
+    font-family: var(--font-headlines-family);
+    font-style: normal;
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-headline-4-size);
+    line-height: var(--font-headline-4-height);
+    letter-spacing: var(--font-headlines-letter-spacing);
+    color: var(--color-carbon);
+  }
+  

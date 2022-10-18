@@ -1,6 +1,7 @@
-function MainTitle() {
+function MainTitle(props) {
+    const { text } = props;
     return (
-        <h1 className="main-title">Любимовка. Ещё</h1>
+        <h1 className="main-title">{text}</h1>
     )
 }
 
