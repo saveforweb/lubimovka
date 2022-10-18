@@ -2,4 +2,4 @@
 @import '../vendor/variables.css';
 @import '../vendor/fonts/Formular Light/formular-light.css';
 @import '../vendor/fonts/Neue Machina Regular/neueMachina.css';
-
+@import '../components/MainTitle/main-title.css';
