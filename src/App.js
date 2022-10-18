@@ -1,10 +1,12 @@
 import MainTitle from './components/MainTitle/MainTitle';
 import RegularTitle from './components/RegularTitle/RegularTitle';
 import RegularText from './components/RegularText/RegularText';
+import SmallLogo from './components/SmallLogo/SmallLogo';
 
 function App() {
   return (
     <>
+      <SmallLogo />
       <MainTitle text='Любимовка. Ещё' />
       <RegularTitle text='О проекте' />
       <RegularText
