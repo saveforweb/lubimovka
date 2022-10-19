@@ -5,17 +5,20 @@ import VideoIframe from './components/VideoIframe/VideoIframe';
 import SmallButton from './components/SmallButton/SmallButton';
 import HeaderText from './components/HeaderText/HeaderText';
 import HeaderPhoto from './components/HeaderPhoto/HeaderPhoto';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <>
-      <SmallLogo />
-      <SmallButton text='ПРОЕКТЫ'/>
+      <Header>
+        <SmallLogo />
+      </Header>
+      <SmallButton text='ПРОЕКТЫ' />
       <MainTitle text='Любимовка. Ещё' />
       <HeaderText text='Межсезонные читки и обсуждение пьес из списка отмеченных отборщиками Любимовки.' />
-      <HeaderPhoto/>
+      <HeaderPhoto />
       <About />
-      <VideoIframe id="4JS70KB9GS0"/>
+      <VideoIframe id="4JS70KB9GS0" />
     </>
   );
 }
