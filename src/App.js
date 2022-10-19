@@ -1,26 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import MainTitle from './components/MainTitle/MainTitle';
+import RegularTitle from './components/RegularTitle/RegularTitle';
+import RegularText from './components/RegularText/RegularText';
+import SmallLogo from './components/SmallLogo/SmallLogo';
 import SmallButton from './components/SmallButton/SmallButton';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+      <SmallLogo />
       <SmallButton text='ПРОЕКТЫ'/>
-    </div>
+      <MainTitle text='Любимовка. Ещё' />
+      <RegularTitle text='О проекте' />
+      <RegularText
+        text='За первый сезон проекта организаторы провели 17 мероприятий вместе с режиссёрами и актёрами московских театров: Театра.doc, Театрального Центра им. Вс. Мейерхольда, Гоголь-центра, Электротеатра «Станиславский», Ленкома.'
+      />
+    </>
   );
 }
 

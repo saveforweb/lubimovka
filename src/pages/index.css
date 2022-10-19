@@ -2,7 +2,8 @@
 @import '../vendor/variables.css';
 @import '../vendor/fonts/Formular Light/formular-light.css';
 @import '../vendor/fonts/Neue Machina Regular/neueMachina.css';
-
-/* SmallButton */
-
+@import '../components/MainTitle/main-title.css';
+@import '../components/RegularTitle/regular-title.css';
+@import '../components/RegularText/regular-text.css';
+@import '../components/SmallLogo/small-logo.css';
 @import url(../components/SmallButton/small-button.css);
