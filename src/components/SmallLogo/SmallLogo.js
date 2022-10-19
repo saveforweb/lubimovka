@@ -1,4 +1,4 @@
-import logo from '../images/SmallLogo.svg';
+import logo from '../../images/SmallLogo.svg';
 
 function SmallLogo() {
     return (

@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import MainTitle from './components/MainTitle/MainTitle';
+import SmallLogo from './components/SmallLogo/SmallLogo';
+import About from './components/About/About';
+import VideoIframe from './components/VideoIframe/VideoIframe';
+import SmallButton from './components/SmallButton/SmallButton';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <SmallLogo />
+      <SmallButton text='ПРОЕКТЫ'/>
+      <MainTitle text='Любимовка. Ещё' />
+      <About />
+      <VideoIframe id="4JS70KB9GS0"/>
+    </>
   );
 }
 
