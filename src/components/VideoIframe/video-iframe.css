@@ -31,24 +31,48 @@
   width: 64px;
   height: 64px;
   border: none;
-  background-image: url("../../images/element-play-button.svg");
   background-color: transparent;
   transform: translate(
     -50%,
     -50%
   );
   padding: 0;
+  outline: none;
+
+}
+
+.video-iframe__block {
+  cursor: pointer;
+}
+
+.video-iframe__icon {
   transition: 0.5s;
   cursor: pointer;
-  outline: none;
+  width: 64px;
+  height: 64px;
+  transition: all 0.5s;
 }
 
-.video-iframe__link {
-  cursor: pointer;
+.video-iframe__icon-circle {
+  fill: var(--color-bg);
+  width: 64px;
+  height: 64px;
+  transition: all 0.5s;
 }
 
-.video-iframe:hover
-  .video-iframe__button,
-.video-iframe__button:focus {
-  opacity: 0.5;
+.video-iframe__icon-triangle {
+  fill: var(--color-carbon);
+  transition: all 0.5s;
+}
+
+.video-iframe__block:hover .video-iframe__icon-circle{
+  fill: var(--color-carbon);
+}
+
+.video-iframe__block:hover .video-iframe__icon-triangle{
+  fill: var(--color-bg);
+}
+
+.video-iframe__block:active .video-iframe__icon{
+  transform: scale(1.4);
 }
