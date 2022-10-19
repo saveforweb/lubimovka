@@ -1,0 +1,11 @@
+.header-text {
+  max-width: 420px;
+  max-height: 128px;
+  font-family: var(--font-headlines-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  color: var(--color-carbon);
+}
