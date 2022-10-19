@@ -1,7 +1,6 @@
 .regular-text {
   padding: 0;
   margin: 0;
-  max-width: 510px;
   font-family: var(
     --font-body-family
   );
@@ -19,5 +18,4 @@
   color: var(--color-carbon);
   font-feature-settings: "ss01"
     on;
-  padding-left: 60px;
 }
