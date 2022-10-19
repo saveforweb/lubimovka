@@ -1,8 +1,7 @@
 import RegularTitle from "../RegularTitle/RegularTitle";
 import RegularText from "../RegularText/RegularText";
 
-function About(props) {
-    const { text } = props;
+function About() {
     return (
         <section className="about">
             <div className="about__container">
