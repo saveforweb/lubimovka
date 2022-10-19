@@ -1,3 +1,4 @@
+@import '../vendor/root.css';
 @import '../vendor/normalize.css';
 @import '../vendor/variables.css';
 @import '../vendor/fonts/Formular Light/formular-light.css';
@@ -10,4 +11,5 @@
 @import '../components/VideoIframe/video-iframe.css';
 @import '../components/SmallButton/small-button.css';
 @import '../components/HeaderText/header-text.css';
-@import '../components/HeaderPhoto/header-photo.css'
+@import '../components/HeaderPhoto/header-photo.css';
+@import '../components/VideoBlock/video-block.css';
