@@ -6,4 +6,5 @@
 @import '../components/RegularTitle/regular-title.css';
 @import '../components/RegularText/regular-text.css';
 @import '../components/SmallLogo/small-logo.css';
+@import '../components/About/about.css';
 @import url(../components/SmallButton/small-button.css);
