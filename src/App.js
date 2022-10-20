@@ -6,6 +6,7 @@ import HeaderText from './components/HeaderText/HeaderText';
 import HeaderPhoto from './components/HeaderPhoto/HeaderPhoto';
 import Header from './components/Header/Header';
 import VideoIframe from './components/VideoIframe/VideoIframe';
+import VideoBlock from './components/VideoBlock/VideoBlock';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <HeaderText text='Межсезонные читки и обсуждение пьес из списка отмеченных отборщиками Любимовки.' />
       <HeaderPhoto />
       <About />
-      <VideoIframe id="4JS70KB9GS0"/>
+      <VideoBlock />
     </>
   );
 }
