@@ -1,0 +1,23 @@
+.social-links-menu {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.social-links-menu::after {
+    content: '';
+    display: block;
+    border-right: 1px solid #242424;
+    Width: 1px;
+    height: 50px;
+    align-self: self-end;
+    margin: 0 0px 0 25px;
+}
+
+@media screen and (max-width: 1250px) {
+    .social-links-menu::after {
+        margin: 0 0px 0 10px;
+        height: 35px;
+    }
+}

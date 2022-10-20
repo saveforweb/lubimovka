@@ -1,0 +1,11 @@
+.header-plus {
+    background: none;
+    border: none;
+    outline: none;
+    background-image: url(./plus.svg);
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    margin: 0px;
+    padding: 0;
+}
