@@ -4,7 +4,6 @@ import About from './components/About/About';
 import SmallButton from './components/SmallButton/SmallButton';
 import HeaderText from './components/HeaderText/HeaderText';
 import HeaderPhoto from './components/HeaderPhoto/HeaderPhoto';
-import HeaderPhoto from './components/Header/Header';
 
 function App() {
   return (
