@@ -1,3 +1,25 @@
 .small-logo {
-    
+    margin: 15px 43px 11px 30px;
+    width: 43px;
+}
+
+@media screen and (max-width: 1250px) {
+    .small-logo {
+        margin: 16px 15px 15px 10px;
+        width: 35px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .small-logo {
+        margin: 10px 15px 6px 8px;
+        width: 32px px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .small-logo {
+        margin: 7px 11px 6px 8px;
+        width: 25px;
+    }
 }

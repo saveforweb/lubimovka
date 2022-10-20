@@ -1,0 +1,23 @@
+    .header-social-links {
+        text-decoration: none;
+        font-family: var(--font-headlines-family);
+        font-style: normal;
+        font-weight: 400;
+        font-size: var(--font-body-small-size);
+        line-height: var(--font-body-small-height);
+        color: var(--color-carbon);
+    }
+    
+    @media screen and (max-width: 1200px) {
+        .header-social-links {
+            font-size: 13px;
+            line-height: 16px;
+        }
+    }
+    
+    @media screen and (max-width: 1050px) {
+        .header-social-links {
+            font-size: 10px;
+            line-height: 16px;
+        }
+    }

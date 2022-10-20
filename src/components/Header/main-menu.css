@@ -1,0 +1,29 @@
+.main-menu {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.main-menu::after {
+    content: '';
+    display: block;
+    border-right: 1px solid #242424;
+    Width: 1px;
+    height: 50px;
+    align-self: self-end;
+    margin: 0 24px 0 39px;
+}
+
+@media screen and (max-width: 1250px) {
+    .main-menu::after {
+        margin: 0 6px 0 12px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main-menu::after {
+        margin: 0 6px 0 6px;
+    }
+}

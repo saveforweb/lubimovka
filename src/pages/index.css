@@ -13,3 +13,17 @@
 @import '../components/HeaderText/header-text.css';
 @import '../components/HeaderPhoto/header-photo.css';
 @import '../components/VideoBlock/video-block.css';
+
+/* Блок Header  */
+
+@import '../components/Header/header.css';
+@import '../components/Header/header-plus.css';
+@import '../components/Header/header-social-links.css';
+@import '../components/Header/main-menu-ul.css';
+@import '../components/Header/main-menu.css';
+@import '../components/Header/support-link.css';
+@import '../components/Header/social-links-menu.css';
+@import '../components/Header/support-link-text.css';
+@import '../components/Header/main-menu-li-links.css';
+@import '../components/Header/main-menu-li-social.css';
+@import '../components/Header/main-menu-ul-social.css';

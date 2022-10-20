@@ -1,0 +1,8 @@
+.support-link {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 8px;
+    padding: 0;
+    flex-grow: 1;
+}
