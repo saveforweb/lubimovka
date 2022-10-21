@@ -1,0 +1,9 @@
+.play-author {
+    font-family: var(--font-headlines-family);
+    font-style: normal;
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-headline-7-size);
+    line-height: var(--font-headline-7-height);
+    letter-spacing: var(--font-headlines-letter-spacing);
+    color: var(--color-carbon);
+}

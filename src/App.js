@@ -9,6 +9,8 @@ import VideoIframe from './components/VideoIframe/VideoIframe';
 import VideoBlock from './components/VideoBlock/VideoBlock';
 import {PlayTitle} from "./components/PlayTitle/PlayTitle";
 import {PlayCover} from "./components/PlayCover/PlayCover";
+import {PlayInfo} from "./components/PlayInfo/PlayInfo";
+
 
 function App() {
   return (
@@ -27,6 +29,11 @@ function App() {
               text='Конкретные разговоры пожилых супругов ни о чём'
           />
       </PlayCover>
+        <PlayInfo
+            author="Екатерина Августеняк"
+            city="Санкт-Петербург"
+            year="2020"
+            />
 
     </>
   );
