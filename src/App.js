@@ -7,6 +7,7 @@ import HeaderPhoto from './components/HeaderPhoto/HeaderPhoto';
 import Header from './components/Header/Header';
 import VideoIframe from './components/VideoIframe/VideoIframe';
 import VideoBlock from './components/VideoBlock/VideoBlock';
+import {PlayTitle} from "./components/PlayTitle/PlayTitle";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
       <HeaderPhoto />
       <About />
       <VideoBlock />
+        <PlayTitle
+        text='Конкретные разговоры пожилых супругов ни о чём'
+        />
     </>
   );
 }
