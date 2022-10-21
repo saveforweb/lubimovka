@@ -13,6 +13,8 @@
 @import '../components/HeaderText/header-text.css';
 @import '../components/HeaderPhoto/header-photo.css';
 @import '../components/VideoBlock/video-block.css';
+@import '../components/Photo/photo.css';
+@import '../components/PhotoGrid/photo-grid.css';
 
 /* Блок Header  */
 
