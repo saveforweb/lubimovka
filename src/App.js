@@ -8,6 +8,7 @@ import Header from './components/Header/Header';
 import VideoIframe from './components/VideoIframe/VideoIframe';
 import VideoBlock from './components/VideoBlock/VideoBlock';
 import {PlayTitle} from "./components/PlayTitle/PlayTitle";
+import {PlayCover} from "./components/PlayCover/PlayCover";
 
 function App() {
   return (
@@ -21,9 +22,12 @@ function App() {
       <HeaderPhoto />
       <About />
       <VideoBlock />
-        <PlayTitle
-        text='Конкретные разговоры пожилых супругов ни о чём'
-        />
+      <PlayCover>
+          <PlayTitle
+              text='Конкретные разговоры пожилых супругов ни о чём'
+          />
+      </PlayCover>
+
     </>
   );
 }

@@ -1,3 +1,6 @@
 .play-title-container {
     max-width: 185px;
+    position: absolute;
+    top: 24px;
+    left: 24px;
 }

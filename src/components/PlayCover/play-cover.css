@@ -1,0 +1,6 @@
+.play-cover {
+    background-color: var(--color-accent);
+    width: 240px;
+    height: 300px;
+    position: relative;
+}
