@@ -10,6 +10,7 @@ import VideoBlock from './components/VideoBlock/VideoBlock';
 import {PlayTitle} from "./components/PlayTitle/PlayTitle";
 import {PlayCover} from "./components/PlayCover/PlayCover";
 import {PlayInfo} from "./components/PlayInfo/PlayInfo";
+import {PlayCard} from "./components/PlayCard/PlayCard";
 
 
 function App() {
@@ -24,17 +25,12 @@ function App() {
       <HeaderPhoto />
       <About />
       <VideoBlock />
-      <PlayCover>
-          <PlayTitle
-              text='Конкретные разговоры пожилых супругов ни о чём'
-          />
-      </PlayCover>
-        <PlayInfo
-            author="Екатерина Августеняк"
-            city="Санкт-Петербург"
-            year="2020"
-            />
-
+     <PlayCard
+             title='Конкретные разговоры пожилых супругов ни о чём'
+             author="Екатерина Августеняк"
+             city="Санкт-Петербург"
+             year="2020"
+         />
     </>
   );
 }
