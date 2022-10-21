@@ -2,17 +2,5 @@
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 44px;
-}
-
-@media screen and (max-width: 1250px) {
-    .main-menu-ul {
-        gap: 29px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .main-menu-ul {
-        gap: 8px;
-    }
+    flex-grow: 1;
 }

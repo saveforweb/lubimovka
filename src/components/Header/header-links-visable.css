@@ -1,0 +1,40 @@
+.header-links-visable {
+    display: flex;
+    align-items: flex-start;
+    color: inherit;
+    white-space: nowrap;
+}
+
+.header-links-visable::after {
+    display: block;
+    width: 0.6em;
+    height: 1.6em;
+    box-sizing: border-box;
+    border: 0.5px solid;
+    content: "";
+    border-left: 0;
+    border-bottom-right-radius: 200% 100%;
+    border-top-right-radius: 200% 100%;
+    visibility: hidden;
+}
+
+.header-links-visable:hover:after {
+    visibility: visible;
+}
+
+.header-links-visable::before {
+    display: block;
+    width: 0.6em;
+    height: 1.6em;
+    box-sizing: border-box;
+    border: 0.5px solid;
+    content: "";
+    border-right: 0;
+    border-bottom-left-radius: 200% 100%;
+    border-top-left-radius: 200% 100%;
+    visibility: hidden;
+}
+
+.header-links-visable:hover::before {
+    visibility: visible;
+}
