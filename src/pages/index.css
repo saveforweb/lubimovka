@@ -13,6 +13,8 @@
 @import '../components/HeaderText/header-text.css';
 @import '../components/HeaderPhoto/header-photo.css';
 @import '../components/VideoBlock/video-block.css';
+@import '../components/Photo/photo.css';
+@import '../components/PhotoGrid/photo-grid.css';
 
 /* Блок Header  */
 
@@ -27,6 +29,8 @@
 @import '../components/Header/main-menu-li-links.css';
 @import '../components/Header/main-menu-li-social.css';
 @import '../components/Header/main-menu-ul-social.css';
+@import '../components/Header/header-menu-links.css';
+@import '../components/Header/header-links-visable.css'
 
 @import '../components/PlayCover/play-cover.css';
 @import '../components/PlayTitle/play-title-container.css';
@@ -37,5 +41,4 @@
 @import '../components/PlayInfo/play-city-container.css';
 @import '../components/PlayInfo/play-city.css';
 @import '../components/PlayInfo/play-year.css';
-
 

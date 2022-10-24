@@ -1,14 +1,13 @@
     .header-social-links {
         text-decoration: none;
-        font-family: var(--font-headlines-family);
+        font-family: var( --font-body-family);
         font-style: normal;
         font-weight: 400;
-        font-size: var(--font-body-small-size);
-        line-height: var(--font-body-small-height);
+        font-size: calc( (100vw - 780px)/(1440 - 780) * (16 - 11) + 11px);
+        line-height: var(--font-body-small-size);
         color: var(--color-carbon);
     }
-    
-    @media screen and (max-width: 1200px) {
+    /* @media screen and (max-width: 1200px) {
         .header-social-links {
             font-size: 13px;
             line-height: 16px;
@@ -20,4 +19,4 @@
             font-size: 10px;
             line-height: 16px;
         }
-    }
+    } */

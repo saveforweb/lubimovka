@@ -11,7 +11,7 @@ import {PlayTitle} from "./components/PlayTitle/PlayTitle";
 import {PlayCover} from "./components/PlayCover/PlayCover";
 import {PlayInfo} from "./components/PlayInfo/PlayInfo";
 import {PlayCard} from "./components/PlayCard/PlayCard";
-
+import PhotoGrid from './components/PhotoGrid/PhotoGrid';
 
 function App() {
   return (
@@ -31,6 +31,7 @@ function App() {
              city="Санкт-Петербург"
              year="2020"
          />
+      <PhotoGrid />
     </>
   );
 }
