@@ -7,6 +7,10 @@ import HeaderPhoto from './components/HeaderPhoto/HeaderPhoto';
 import Header from './components/Header/Header';
 import VideoIframe from './components/VideoIframe/VideoIframe';
 import VideoBlock from './components/VideoBlock/VideoBlock';
+import {PlayTitle} from "./components/PlayTitle/PlayTitle";
+import {PlayCover} from "./components/PlayCover/PlayCover";
+import {PlayInfo} from "./components/PlayInfo/PlayInfo";
+import {PlayCard} from "./components/PlayCard/PlayCard";
 import PhotoGrid from './components/PhotoGrid/PhotoGrid';
 
 function App() {
@@ -21,6 +25,12 @@ function App() {
       <HeaderPhoto />
       <About />
       <VideoBlock />
+     <PlayCard
+             title='Конкретные разговоры пожилых супругов ни о чём'
+             author="Екатерина Августеняк"
+             city="Санкт-Петербург"
+             year="2020"
+         />
       <PhotoGrid />
     </>
   );

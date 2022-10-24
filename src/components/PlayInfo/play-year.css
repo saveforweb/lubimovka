@@ -1,0 +1,9 @@
+.play-year {
+    font-family: var(--font-body-family);
+    font-style: normal;
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-body-small-size);
+    line-height: var(--font-body-small-height);
+    color: var(--color-carbon);
+    margin: 0;
+}
