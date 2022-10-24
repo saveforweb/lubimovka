@@ -7,6 +7,7 @@ import HeaderPhoto from './components/HeaderPhoto/HeaderPhoto';
 import Header from './components/Header/Header';
 import VideoIframe from './components/VideoIframe/VideoIframe';
 import VideoBlock from './components/VideoBlock/VideoBlock';
+import PhotoGrid from './components/PhotoGrid/PhotoGrid';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <HeaderPhoto />
       <About />
       <VideoBlock />
+      <PhotoGrid />
     </>
   );
 }
