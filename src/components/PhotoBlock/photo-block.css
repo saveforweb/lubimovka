@@ -1,0 +1,12 @@
+.photo-block {
+    background-color: var(--color-bg);
+    padding-top: 145px;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.photo-block__regular-title {
+    max-width: 720px;
+    display: flex;
+    margin: 0 auto;
+}
