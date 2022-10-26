@@ -12,6 +12,7 @@ import {PlayCover} from "./components/PlayCover/PlayCover";
 import {PlayInfo} from "./components/PlayInfo/PlayInfo";
 import {PlayCard} from "./components/PlayCard/PlayCard";
 import PhotoGrid from './components/PhotoGrid/PhotoGrid';
+import BigButton from './components/BigButton/BigButton'
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
              year="2020"
          />
       <PhotoGrid />
+      <BigButton text='О СПЕКТАКЛЕ'/>
     </>
   );
 }
