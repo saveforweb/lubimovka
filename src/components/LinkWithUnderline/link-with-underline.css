@@ -1,0 +1,22 @@
+.link-with-underline {
+    padding: 0;
+    margin: 0;
+    font-family: var(
+        --font-body-family
+        );
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(
+        --font-caption-size
+        );
+    line-height: var(
+        --font-caption-height
+    );
+    color: var(--color-carbon);
+    text-decoration: none;
+}
+
+.link-with-underline:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
