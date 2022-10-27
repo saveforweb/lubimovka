@@ -12,6 +12,7 @@ import {PlayCover} from "./components/PlayCover/PlayCover";
 import {PlayInfo} from "./components/PlayInfo/PlayInfo";
 import {PlayCard} from "./components/PlayCard/PlayCard";
 import PhotoBlock from './components/PhotoBlock/PhotoBlock';
+import LinkWithUnderline from './components/LinkWithUnderline/LinkWithUnderline';
 import SmallTitle from './components/SmallTitle/SmallTitle';
 
 function App() {
@@ -33,7 +34,9 @@ function App() {
              year="2020"
          />
       <PhotoBlock />
+      <LinkWithUnderline text='Любимовка' />
       <SmallTitle text="Генеральные партнеры" />
+
     </>
   );
 }
