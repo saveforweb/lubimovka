@@ -13,6 +13,7 @@ import {PlayInfo} from "./components/PlayInfo/PlayInfo";
 import {PlayCard} from "./components/PlayCard/PlayCard";
 import PhotoBlock from './components/PhotoBlock/PhotoBlock';
 import LinkWithUnderline from './components/LinkWithUnderline/LinkWithUnderline';
+import SmallTitle from './components/SmallTitle/SmallTitle';
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
          />
       <PhotoBlock />
       <LinkWithUnderline text='Любимовка' />
+      <SmallTitle text="Генеральные партнеры" />
+
     </>
   );
 }

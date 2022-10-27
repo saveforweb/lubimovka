@@ -17,6 +17,7 @@
 @import '../components/PhotoGrid/photo-grid.css';
 @import '../components/PhotoBlock/photo-block.css';
 @import '../components/LinkWithUnderline/link-with-underline.css';
+@import '../components/SmallTitle/small-title.css';
 
 /* Блок Header  */
 
@@ -32,7 +33,7 @@
 @import '../components/Header/main-menu-li-social.css';
 @import '../components/Header/main-menu-ul-social.css';
 @import '../components/Header/header-menu-links.css';
-@import '../components/Header/header-links-visable.css'
+@import '../components/Header/header-links-visable.css';
 
 @import '../components/PlayCover/play-cover.css';
 @import '../components/PlayTitle/play-title-container.css';
